@@ -31,6 +31,7 @@ Main commands:
   5.destroy     ->   Destroy previously-created infrastructure.
 
 All other commands:
+
   1.console      ->  Try Terraform expressions at an interactive command prompt.
   2.fmt          ->  Reformat your configuration in the standard style.
   3.force-unlock ->  Release a stuck lock on the current workspace.
