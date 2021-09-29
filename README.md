@@ -19,28 +19,28 @@
    terraform output kubeconfig > ~/.kube/config
 
 Main commands:
-  1.init ->          Prepare your working directory for other commands
-  2.validate      Check whether the configuration is valid
-  3.plan          Show changes required by the current configuration
-  4.apply         Create or update infrastructure
-  5.destroy       Destroy previously-created infrastructure
+  1.init        ->   Prepare your working directory for other commands.
+  2.validate    ->   Check whether the configuration is valid.
+  3.plan        ->   Show changes required by the current configuration.
+  4.apply       ->   Create or update infrastructure.
+  5.destroy     ->   Destroy previously-created infrastructure.
 
 All other commands:
-  console       Try Terraform expressions at an interactive command prompt
-  fmt           Reformat your configuration in the standard style
-  force-unlock  Release a stuck lock on the current workspace
-  get           Install or upgrade remote Terraform modules
-  graph         Generate a Graphviz graph of the steps in an operation
-  import        Associate existing infrastructure with a Terraform resource
-  login         Obtain and save credentials for a remote host
-  logout        Remove locally-stored credentials for a remote host
-  output        Show output values from your root module
-  providers     Show the providers required for this configuration
-  refresh       Update the state to match remote systems
-  show          Show the current state or a saved plan
-  state         Advanced state management
-  taint         Mark a resource instance as not fully functional
-  test          Experimental support for module integration testing
-  untaint       Remove the 'tainted' state from a resource instance
-  version       Show the current Terraform version
-  workspace     Workspace management
+  1.console      ->  Try Terraform expressions at an interactive command prompt.
+  2.fmt          ->  Reformat your configuration in the standard style.
+  3.force-unlock ->  Release a stuck lock on the current workspace.
+  4.get          ->  Install or upgrade remote Terraform modules.
+  5.graph        ->  Generate a Graphviz graph of the steps in an operation.
+  6.import       ->  Associate existing infrastructure with a Terraform resource.
+  7.login        ->  Obtain and save credentials for a remote host.
+  8.logout       ->  Remove locally-stored credentials for a remote host.
+  9.output       ->  Show output values from your root module.
+  10.providers   ->  Show the providers required for this configuration.
+  11.refresh     ->  Update the state to match remote systems.
+  12.show        ->  Show the current state or a saved plan.
+  13.state       ->  Advanced state management.
+  14.taint       ->  Mark a resource instance as not fully functional.
+  15.test        ->  Experimental support for module integration testing.
+  16.untaint     ->  Remove the 'tainted' state from a resource instance.
+  17.version     ->  Show the current Terraform version.
+  18.workspace   ->  Workspace management.
